@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hn.edu.ujcv.pmd_2021_ii_p1_proyecto1_parte2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PMD_2021_II_P1_PROYECTO1_PARTE2">
+        <activity android:name=".BuscarAlumnoActivity"></activity>
+        <activity android:name=".RegistroAlumnoActivity" />
+        <activity android:name=".RegistroLibroActivity" />
+        <activity android:name=".BuscarLibroActivity" />
+        <activity android:name=".RegistroPrestamoActivity" />
+        <activity android:name=".BuscarPrestamoActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
